@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import Routes from './routes';
-
+import {ApolloClient, createNetworkInterface} from 'react-apollo';
 
 const App = <Routes/>;
 
